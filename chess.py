@@ -87,7 +87,7 @@ class Gnuchess():
 
         self._width = Gdk.Screen.width()
         self._height = Gdk.Screen.height()
-        self.scale = int((self._height - 55) / 10)
+        self.scale = int((self._height - 55) / 5)
         self.we_are_sharing = False
 
         self.move_list = []
